@@ -1,8 +1,8 @@
 <?php	
 	class Student{
-		// Protected Access Modifier 
-		protected $name;
-		protected $department;
+		// Public Access Modifier
+		public $name;
+		public $department;
 
 		public function __construct($name, $department)
 		{
@@ -23,8 +23,8 @@
 			return $this->session = $session;	    
 		}	
 	}
-	$std = new College('Mazedur Rahman','Applied Statistics');
+	$std = new Student('Mazedur Rahman','Applied Statistics');
 	echo $std->getInfo();
-	echo $std->name;       // can't not access
-	echo $std->department; // can't not access
+	echo $std->name;       
+	echo $std->department; 
 ?>
