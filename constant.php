@@ -1,13 +1,13 @@
 <?php
 	class Student{
-		// Define Constant
-		const NAME = 'Mizanur Rahman';
+		static $name     = 'Hasinur Rahman';
+		const profession = 'Software Engineer';
 
 		public function getName()
 		{
-		    return 'Full Name is : '.Student::NAME;
+		    return 'Full Name is : '.self::$name;
 		}
 	}
 	$student = new Student;
-	echo $student->getName();
+	echo Student::getName();
 ?>
