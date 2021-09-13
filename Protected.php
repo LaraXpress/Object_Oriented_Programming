@@ -1,6 +1,6 @@
 <?php	
 	class Student{
-		// Protected Access Modifier
+		// Protected Access Modifier 
 		protected $name;
 		protected $department;
 
