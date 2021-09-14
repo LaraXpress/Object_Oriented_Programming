@@ -6,7 +6,7 @@
 		public $session;
 		public $branch;
 
-		private $income = 12500;		
+		private $income = 12000;		
 
 		public function __construct($name,$course,$session,$branch)
 		{
